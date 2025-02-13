@@ -196,7 +196,7 @@ const refreshAccessToken = asyncHandler(async(req,res)=>{
          200,
          {
              accessToken,
-             refreshToken: newRefreshToken
+             refreshToken : newRefreshToken
          },
          "Access token refreshed"
      )
